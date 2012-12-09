@@ -146,9 +146,9 @@ def add_to_manifest(repositories):
     raw_xml = ElementTree.tostring(lm)
     raw_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + raw_xml
 
-    f = open('.repo/local_manifest.xml', 'w')
-    f.write(raw_xml)
-    f.close()
+   # f = open('.repo/local_manifest.xml', 'w')
+   # f.write(raw_xml)
+   # f.close()
 
 def fetch_dependencies(repo_path):
     print 'Looking for dependencies'
